@@ -1,0 +1,39 @@
+both github and bitbucket plan to support oauth
+  tie in webhooks? https://github.com/ask/durian/#readme
+use github API to pull out a list of just commits from the interested person.
+
+opensourceresume.com/nick
+
+github resume service
+
+
+kinda cool:
+  http://maxim.github.com/
+  
+  another person musing about resume:
+    http://rc3.org/2009/02/14/the-modern-developer-rsum/
+    
+from a username, find all projects they fork (and watch?)
+look for any commits in upstreams and peers which are from the author.
+
+
+user/show/:username
+  basic user details
+
+repos/watched/:user
+  show all repos watched by a user
+
+repos/show/:user
+  shows all repos of a user
+
+repos/show/:user/:repo
+  show repo details
+
+repos/show/:user/:repo/branches
+  list of branches (tips to walk for commits)
+
+repos/show/:user/:repo/contributors
+  lists contributors to a given repo, w/ # contribs
+
+commits/list/:user_id/:repository/:branch
+
